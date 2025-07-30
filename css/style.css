@@ -250,3 +250,30 @@ span.icon {
 .sale {
   background-color: var(--primary-color);
 }
+
+/* footer */
+
+.container_ft {
+  background-color: var(--primary-color);
+  padding: 100px;
+}
+
+.list_ft {
+  gap: 50px;
+}
+
+.ft_text p {
+  font-size: 14px;
+  font-weight: 300;
+  color: var(--title-color);
+  line-height: 200%;
+  letter-spacing: -0.22px;
+}
+
+.ft_text h4 {
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--title-color);
+  line-height: 200%;
+  letter-spacing: -0.22px;
+}
