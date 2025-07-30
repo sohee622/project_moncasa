@@ -11,11 +11,12 @@
 :root {
     --primary-color: #713131;
     --sub-brown-color: #907D6E;
-    --sub-green-color: #B0B0A8;
+    --sub-green-color: #777255;
     --sub-color: #F6F1EB;
     --title-color: #ffffff;
     --basic-color: #111111;
     --sub-basic-color: #ADADAD;
+    --background-color: #F5F5F5;
 }
 
 /* 공통 스타일 */
