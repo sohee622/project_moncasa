@@ -5,6 +5,10 @@
   padding: 0 110px;
 }
 
+.gnb_container {
+  gap: 25px;
+}
+
 .gnb {
   gap: 55px;
 }
@@ -19,6 +23,16 @@
   color: var(--title-color); 
   font-size: 25px; 
   font-weight: 600;
+}
+
+.global_bt {
+  color: var(--title-color);
+  font-size: 20px;
+  font-weight: 500;
+  border: solid 1.5px var(--title-color);
+  padding: 10px 20px;
+  border-radius: 50px;
+  gap: 5px;
 }
 
 /* main_scalebanner */
@@ -87,9 +101,10 @@
 }
 
 .scalechild3 h2 {
-  font-size: 150px;
+  font-size: 130px;
   font-weight: 700;
   color: #ffffff;
+  text-align: left;
 }
 
 .scalechild3 h3 {
