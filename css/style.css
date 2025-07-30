@@ -39,23 +39,27 @@
 .scalebanner > * {
   min-height: 100vh;
   padding: 2vw 2vw;
+  background-size: 100%;
+  background-position: center;
+  transition: all 0.25s ease;
+}
+
+.scalebanner > *:hover {
+  background-size:120%;
 }
 
 .scalechild1 {
   background-image: url(../img/main_minimal.jpg);
-  background-size: cover;
 }
 
 .scalechild2 {
   background-image: url(../img/main_upcycling.jpg);
-  background-size: cover;
   overflow: hidden;
   position: relative;
 }
 
 .scalechild3 {
   background-image: url(../img/main_primium.jpg);
-  background-size: cover;
 }
 
 .scalechild1 h2 {
@@ -102,14 +106,12 @@
 
 .scalechild3 h2 {
   font-size: 130px;
-  font-weight: 700;
   color: #ffffff;
   text-align: left;
 }
 
 .scalechild3 h3 {
   font-size: 64px;
-  font-weight: 700;
   color: #ffffff;
   text-align: right;
 }
@@ -157,6 +159,7 @@
 
 .premium_content p {
     font-size: 35px;
+    font-weight: 500;
     color: #ffffff;
     opacity: 0.7;
     letter-spacing: -0.385px;
