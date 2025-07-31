@@ -182,9 +182,24 @@
 
 /* product */
 
-.premium_prod {
-  margin: 55px auto;
+.premium_mySwiper {
   max-width: 1450px;
+  margin: 0 auto;
+  margin-top: 70px;
+  padding: 0 50px;
+}
+
+.swiper-wrapper {
+  width: 100%;
+}
+
+.swiper-slide {
+  width: 300px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: #ADADAD;
 }
 
 .img {

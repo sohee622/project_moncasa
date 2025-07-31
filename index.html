@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MONCASA</title>
+
+    <!-- swiper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     
     <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
 
@@ -66,63 +69,124 @@
                     <span class="tag">지인 추천시, 최대 50% 할인 혜택</span>
                 </div>
             </div>
-            <div class="premium_prod d-flex jcb">
-                <ul class="product">
-                    <li class="img">
-                        <img src="img/premium_product1.png" alt="">
-                            <div class="icon">
-                                <!-- <span class="icon eco">ECO</span> -->
-                                <span class="icon sale">20%</span>
-                            </div>
-                    </li>
-                    <li class="text d-flex jcb">
-                        <h3 class="prod_name">오르덴 2700 리클라이너</h3>
-                        <p class="prod_cost">4,690,000원</p>
-                        <p class="prod_price">3,752,000원</p>
-                    </li>
-                </ul>
-                <ul class="product">
-                    <li class="img">
-                        <img src="img/premium_product2.png" alt="">
-                            <div class="icon">
-                                <span class="icon eco">ECO</span>
-                                <span class="icon sale">20%</span>
-                            </div>
-                    </li>
-                    <li class="text d-flex jcb">
-                        <h3 class="prod_name">디에즈 4220 모듈형</h3>
-                        <p class="prod_cost">10,600,000원</p>
-                        <p class="prod_price">8,480,000원</p>
-                    </li>
-                </ul>
-                <ul class="product">
-                    <li class="img">
-                        <img src="img/premium_product3.png" alt="">
-                            <div class="icon">
-                                <!-- <span class="icon eco">ECO</span> -->
-                                <span class="icon sale">20%</span>
-                            </div>
-                    </li>
-                    <li class="text d-flex jcb">
-                        <h3 class="prod_name">디오 3300 코너형</h3>
-                        <p class="prod_cost">8,300,000원</p>
-                        <p class="prod_price">6,640,000원</p>
-                    </li>
-                </ul>
-                <ul class="product">
-                    <li class="img">
-                        <img src="img/premium_product4.png" alt="">
-                            <div class="icon">
-                                <!-- <span class="icon eco">ECO</span> -->
-                                <span class="icon sale">20%</span>
-                            </div>
-                    <li class="text d-flex jcb">
-                        <h3 class="prod_name">도블레 3040 카우치형</h3>
-                        <p class="prod_cost">6,200,000원</p>
-                        <p class="prod_price">4,960,000원</p>
-                    </li>
-                </ul>
-            </div>
+                <div class="swiper premium_mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <ul class="product">
+                                    <li class="img">
+                                        <img src="img/premium_product1.png" alt="">
+                                            <div class="icon">
+                                                <!-- <span class="icon eco">ECO</span> -->
+                                                <span class="icon sale">20%</span>
+                                            </div>
+                                    </li>
+                                    <li class="text d-flex jcb">
+                                        <h3 class="prod_name">오르덴 2700 리클라이너</h3>
+                                        <p class="prod_cost">4,690,000원</p>
+                                        <p class="prod_price">3,752,000원</p>
+                                    </li>
+                                </ul>
+                        </div>
+                        <div class="swiper-slide">
+                            <ul class="product">
+                                <li class="img">
+                                    <img src="img/premium_product2.png" alt="">
+                                        <div class="icon">
+                                            <span class="icon eco">ECO</span>
+                                            <span class="icon sale">20%</span>
+                                        </div>
+                                </li>
+                                <li class="text d-flex jcb">
+                                    <h3 class="prod_name">디에즈 4220 모듈형</h3>
+                                    <p class="prod_cost">10,600,000원</p>
+                                    <p class="prod_price">8,480,000원</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="swiper-slide">
+                            <ul class="product">
+                                <li class="img">
+                                    <img src="img/premium_product3.png" alt="">
+                                        <div class="icon">
+                                            <!-- <span class="icon eco">ECO</span> -->
+                                            <span class="icon sale">20%</span>
+                                        </div>
+                                </li>
+                                <li class="text d-flex jcb">
+                                    <h3 class="prod_name">디오 3300 코너형</h3>
+                                    <p class="prod_cost">8,300,000원</p>
+                                    <p class="prod_price">6,640,000원</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="swiper-slide">
+                            <ul class="product">
+                                <li class="img">
+                                    <img src="img/premium_product4.png" alt="">
+                                        <div class="icon">
+                                            <!-- <span class="icon eco">ECO</span> -->
+                                            <span class="icon sale">20%</span>
+                                        </div>
+                                </li>
+                                <li class="text d-flex jcb">
+                                    <h3 class="prod_name">도블레 3040 카우치형</h3>
+                                    <p class="prod_cost">6,200,000원</p>
+                                    <p class="prod_price">4,960,000원</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="swiper-slide">
+                            <ul class="product">
+                                <li class="img">
+                                    <img src="img/premium_product5.png" alt="">
+                                        <div class="icon">
+                                            <!-- <span class="icon eco">ECO</span> -->
+                                            <span class="icon sale">20%</span>
+                                        </div>
+                                </li>
+                                <li class="text d-flex jcb">
+                                    <h3 class="prod_name">테세르 3020 일반형</h3>
+                                    <p class="prod_cost">6,500,000원</p>
+                                    <p class="prod_price">5,200,000원</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="swiper-slide">
+                            <ul class="product">
+                                <li class="img">
+                                    <img src="img/premium_product6.png" alt="">
+                                        <div class="icon">
+                                            <!-- <span class="icon eco">ECO</span> -->
+                                            <span class="icon sale">20%</span>
+                                        </div>
+                                </li>
+                                <li class="text d-flex jcb">
+                                    <h3 class="prod_name">리토스 3400 카우치형</h3>
+                                    <p class="prod_cost">6,400,000원</p>
+                                    <p class="prod_price">5,120,000원</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="swiper-slide">
+                            <ul class="product">
+                                <li class="img">
+                                    <img src="img/premium_product7.png" alt="">
+                                        <div class="icon">
+                                            <span class="icon eco">ECO</span>
+                                            <span class="icon sale">20%</span>
+                                        </div>
+                                </li>
+                                <li class="text d-flex jcb">
+                                    <h3 class="prod_name">리니에 2800 일반형</h3>
+                                    <p class="prod_cost">5,900,000원</p>
+                                    <p class="prod_price">4,720,000원</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
         </section>
         <section id="taste" class="vh-100">
             taste</section>
@@ -153,5 +217,26 @@
             </ul>
         </div>
     </footer>
+
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    
+    <!-- premium planning swiper -->
+    <script>
+      var swiper = new Swiper(".premium_mySwiper", {
+        slidesPerView: "auto",
+        spaceBetween: 50,
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },
+        loop: true,
+      });
+    </script>
+
 </body>
 </html>
